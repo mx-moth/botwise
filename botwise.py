@@ -188,7 +188,7 @@ def create_database(connection: sqlite3.Connection):
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             question_id INTEGER,
             answer_letter TEXT,
-            answered BOOLEAN DEFAULT FALSE,
+            answered BOOLEAN DEFAULT 0,
             correct BOOLEAN NULLABLE DEFAULT NULL,
             created  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
