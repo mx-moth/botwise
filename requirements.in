@@ -1,0 +1,4 @@
+crython~=0.2.0
+requests~=2.22.0
+beautifulsoup4~=4.8.0
+html5lib~=1.0.1
